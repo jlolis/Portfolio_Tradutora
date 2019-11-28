@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  easy_wordpress:
+    image: wordpress
+    network_mode: host
+    volumes:
+      - ./:/var/www/html
+    environment:
+       WORDPRESS_DB_HOST: 127.0.0.1
+       WORDPRESS_DB_USER: joaololis
+       WORDPRESS_DB_PASSWORD: Fabiololis01.
+       WORDPRESS_DB_NAME: wp_portfolio
