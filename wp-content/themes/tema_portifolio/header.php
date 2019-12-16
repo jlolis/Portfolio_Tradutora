@@ -17,6 +17,12 @@
         <div class="cabecalho">
 
             <div class="menu-mobile"><?php include 'img/menu-mobile.svg';?></div>
+            <ul class="lista-menu" style="width: 100%;">
+                <li>Home</li>
+                <li>Trabalhos</li>
+                <li>Vida de Tradutor</li>
+                <li>Contato</li>      
+            </ul>
         
             
         </div>
