@@ -9,3 +9,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.cabecalho {
+    background-color: blue;
+    height: 100px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-mobile {
+    margin-top: 10px;
+}

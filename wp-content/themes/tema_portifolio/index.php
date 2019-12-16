@@ -8,6 +8,7 @@ if(isset($_GET['pagina'])){
  
 /* Carrega o header.php */
 include 'header.php';
+get_header('header.php');
  
 /* Carrega a página escolhida pelo usuário */
 switch ($pagina) {
