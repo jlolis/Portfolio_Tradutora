@@ -1,1 +1,1 @@
-<h1>HOME</h1>
+<?php get_header() ?>
