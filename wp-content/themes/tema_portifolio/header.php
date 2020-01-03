@@ -28,4 +28,6 @@
         </div>
 
     <body>
+
+    <?php the_content(); ?>
     
