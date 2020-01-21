@@ -142,6 +142,113 @@ svg {
     color: white;
 }
 
+.logos-contato {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos-contato-imagem {
+    width: 70px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foto-contato {
+    display: none;
+}
+
+.slider {
+    display: block;
+    width: 310px;
+    height: 270px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    border: black 5px solid;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider li {
+    display: block;
+    width: 300px;
+    height: 260px;
+}
+
+.titulo-vida-de-tradutor {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.resumo-carreira-tradutor {
+    color: white;
+    text-align: center;
+}
+
+.resumo-carreira-tradutor>h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.resumo-carreira-tradutor p {
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
 @media (max-width: 325px) {
     #foto-perfil {
         width: 300px;
@@ -184,12 +291,6 @@ svg {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-
-@media (max-width:767px) and (min-width:400px) {
-    #post-recente {
-        display: none;
     }
 }
 
@@ -241,6 +342,40 @@ svg {
     }
     .texto-citacao {
         margin-top: 80px;
+    }
+    .logos-contato {
+        margin-top: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .logos-contato-imagem {
+        width: 100px;
+        margin: 0;
+    }
+    .foto-contato {
+        background-image: url('https://educar.gt/wp-content/uploads/2018/05/foto-de-perfil-adecuada.jpg');
+        background-position: cover;
+        border: aliceblue 7px solid;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin-top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        display: visible;
+    }
+    .slider {
+        width: 410px;
+        height: 350px;
+    }
+    .slider li {
+        display: block;
+        width: 400px;
+        height: 340px;
     }
 }
 
@@ -301,38 +436,28 @@ svg {
     .container {
         margin-left: 15%;
     }
-}
-
-@media (min-width: 2200px) {
-    .lista-menu li {
-        font-size: 25px;
-        float: left;
-        width: 22%;
-        white-space: nowrap;
-        margin: 5px;
-        text-align: center;
+    .slider {
+        width: 610px;
+        height: 450px;
     }
-    #foto-perfil {
-        margin-top: 80px;
-        display: inline-block;
-        width: 450px;
+    .slider li {
+        display: block;
+        width: 600px;
+        height: 440px;
     }
-    .home-perfil {
-        display: inline-block;
-        margin-left: 16%;
+    .resumo-carreira-tradutor>h2 {
+        font-size: 2.5rem;
+        margin-top: 90px;
+        margin-bottom: 40px;
     }
-    .texto-citacao {
-        margin-top: 200px;
+    .resumo-carreira-tradutor p {
+        margin-right: 9%;
+        margin-left: 9%;
+        font-size: 1.2rem;
     }
-    #post-recente {
-        margin-right: 20%;
-    }
-    #post-recente-foto {
-        margin-top: 150px;
-        width: 300px;
-        height: auto;
-    }
-    .container {
-        margin-left: 15%;
+    .titulo-vida-de-tradutor {
+        font-size: 3rem;
+        margin-top: 45px;
+        margin-bottom: 45px;
     }
 }
