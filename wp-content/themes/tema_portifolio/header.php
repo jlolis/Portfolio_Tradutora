@@ -18,10 +18,10 @@
             <div class="menu-mobile"><?php include 'img/menu-mobile.svg';?></div>
 
             <ul class="lista-menu" id="lista-menu" style="width: 100%;">
-                <li><a href="/home">Home</a></li>
-                <li><a href="">Trabalhos</a></li>
-                <li><a href="/vida-de-tradutor">Vida de Tradutor</a></li>
-                <li><a href="/contato">Contato</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="trabalhos">Trabalhos</a></li>
+                <li><a href="vida-de-tradutor">Vida de Tradutor</a></li>
+                <li><a href="contato">Contato</a></li>
             </ul>
              
         </div>

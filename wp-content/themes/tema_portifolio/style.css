@@ -64,6 +64,12 @@ svg {
     margin-right: auto;
 }
 
+.lista-perfil{
+    display: flex;
+    text-align: center;
+    
+}
+
 .logo-instagram,
 #logo-instagram {
     margin-top: 15px;
@@ -249,6 +255,28 @@ svg {
     margin-left: 9%;
 }
 
+.pagina-de-posts{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.conteudo-post{
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.conteudo-post p{
+    max-width: 500px;
+}
+.pagina-de-posts h1{
+    margin-bottom: 25px;
+}
+
+
+
 @media (max-width: 325px) {
     #foto-perfil {
         width: 300px;
@@ -377,6 +405,15 @@ svg {
         width: 400px;
         height: 340px;
     }
+    .conteudo-post{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5%;
+    }
+    .conteudo-post p{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -459,5 +496,13 @@ svg {
         font-size: 3rem;
         margin-top: 45px;
         margin-bottom: 45px;
+    }
+
+    .conteudo-post{
+        margin-right: 10%;
+    }
+    .conteudo-post p{
+        margin-right: 20%;
+        margin-left: 20%;
     }
 }
