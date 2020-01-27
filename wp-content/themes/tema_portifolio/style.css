@@ -12,6 +12,7 @@
 
 body {
     background-color: rgb(41, 200, 228);
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -97,11 +98,7 @@ svg {
 }
 
 #lista-perfil :first-child {
-    margin-top: 25px;
-}
-
-#lista-perfil :last-child {
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 #lista-nome {
@@ -275,6 +272,21 @@ svg {
     margin-bottom: 25px;
 }
 
+#lista-perfil li{
+    justify-self: center;
+    list-style: none;
+}
+
+#lista-perfil img{
+    width: 94%;
+    height: auto;
+}
+#lista-perfil p{
+    flex-wrap: wrap;
+}
+#lista-perfil a{
+    text-decoration: none;
+}
 
 
 @media (max-width: 325px) {
@@ -414,6 +426,26 @@ svg {
         margin-right: 10%;
         margin-left: 10%;
     }
+    #lista-perfil li{
+        position: absolute;
+        top: 6%;
+        right: 1%;
+        color: white;
+        max-height: 560px;
+        overflow: hidden;
+        max-width: 350px;
+        
+    }
+    #lista-perfil li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: bold;
+    }
+    #lista-perfil li p{
+        font-weight: 300;
+    }
+    
 }
 
 @media (min-width: 1024px) {
@@ -422,6 +454,9 @@ svg {
     }
     .texto-citacao {
         margin-top: 100px;
+    }
+    #lista-perfil li{
+        right: 8%;
     }
 }
 
@@ -505,4 +540,17 @@ svg {
         margin-right: 20%;
         margin-left: 20%;
     }
+
+    #lista-perfil li{
+        right: 10%;
+    }
+}
+
+@media (min-width: 1500px){
+
+    #lista-perfil li{
+        top: 5%;
+        right: 25%;
+    }
+
 }

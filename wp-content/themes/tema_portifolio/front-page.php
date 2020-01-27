@@ -24,10 +24,7 @@ get_header();
         </div>
 
     </div>
-    <div id="post-recente" class="post-recente">
-        <h2 class="post-recente" id="post-recente-texto"></h2>
-        <a href="https://www.google.com/" target="blank"><img id="post-recente-foto" src="https://www.tamiresdecarvalho.com/wp-content/uploads/2019/03/a-mulher-de-branco.jpg"></a>
-    </div>
+    
     
 </div>
 
