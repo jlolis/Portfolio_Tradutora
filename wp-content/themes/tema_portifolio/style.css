@@ -35,6 +35,10 @@ body {
     color: white;
 }
 
+.lista-menu ul {
+    width: 100%;
+}
+
 ul {
     display: inline-block;
     margin-block-start: 0;
@@ -65,10 +69,9 @@ svg {
     margin-right: auto;
 }
 
-.lista-perfil{
+.lista-perfil {
     display: flex;
     text-align: center;
-    
 }
 
 .logo-instagram,
@@ -97,7 +100,7 @@ svg {
     max-width: 412px;
 }
 
-#lista-perfil :first-child {
+#lista-perfil>p {
     margin-top: 20px;
 }
 
@@ -143,6 +146,8 @@ svg {
 #lista-menu a {
     text-decoration: none;
     color: white;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .logos-contato {
@@ -252,42 +257,47 @@ svg {
     margin-left: 9%;
 }
 
-.pagina-de-posts{
+.pagina-de-posts {
     text-align: center;
     color: white;
     margin-top: 30px;
 }
 
-.conteudo-post{
+.conteudo-post {
     align-items: center;
     margin-bottom: 20px;
     font-size: 1.25rem;
     margin-bottom: 25px;
     font-weight: 300;
 }
-.conteudo-post p{
+
+.conteudo-post p {
     max-width: 500px;
 }
-.pagina-de-posts h1{
+
+.pagina-de-posts h1 {
     margin-bottom: 25px;
 }
 
-#lista-perfil li{
+#lista-perfil li {
     justify-self: center;
     list-style: none;
+    margin-top: 30px;
 }
 
-#lista-perfil img{
+#lista-perfil img {
     width: 94%;
     height: auto;
-}
-#lista-perfil p{
-    flex-wrap: wrap;
-}
-#lista-perfil a{
-    text-decoration: none;
+    margin-top: 10px;
 }
 
+#lista-perfil p {
+    flex-wrap: wrap;
+}
+
+#lista-perfil a {
+    text-decoration: none;
+}
 
 @media (max-width: 325px) {
     #foto-perfil {
@@ -354,11 +364,11 @@ svg {
         padding: 0;
         float: left;
         min-width: 720px;
-        width: 720px;
+        text-align: center;
     }
     .lista-menu li {
         font-size: 25px;
-        float: left;
+        display: contents;
         width: 22%;
         white-space: nowrap;
         margin: 5px;
@@ -417,35 +427,33 @@ svg {
         width: 400px;
         height: 340px;
     }
-    .conteudo-post{
+    .conteudo-post {
         display: flex;
         justify-content: flex-end;
         margin-right: 5%;
     }
-    .conteudo-post p{
+    .conteudo-post p {
         margin-right: 10%;
         margin-left: 10%;
     }
-    #lista-perfil li{
+    #lista-perfil li {
         position: absolute;
-        top: 6%;
+        top: 10%;
         right: 1%;
         color: white;
         max-height: 560px;
         overflow: hidden;
         max-width: 350px;
-        
     }
-    #lista-perfil li a{
+    #lista-perfil li a {
         text-decoration: none;
         font-size: 1.5rem;
         color: white;
         font-weight: bold;
     }
-    #lista-perfil li p{
+    #lista-perfil li p {
         font-weight: 300;
     }
-    
 }
 
 @media (min-width: 1024px) {
@@ -455,8 +463,12 @@ svg {
     .texto-citacao {
         margin-top: 100px;
     }
-    #lista-perfil li{
+    #lista-perfil li {
         right: 8%;
+    }
+    #lista-menu a {
+        margin-right: 3%;
+        margin-left: 3%;
     }
 }
 
@@ -468,6 +480,10 @@ svg {
         white-space: nowrap;
         margin: 5px;
         text-align: center;
+    }
+    #lista-menu a {
+        margin-right: 4%;
+        margin-left: 4%;
     }
     #foto-perfil {
         margin-top: 80px;
@@ -532,25 +548,25 @@ svg {
         margin-top: 45px;
         margin-bottom: 45px;
     }
-
-    .conteudo-post{
+    .conteudo-post {
         margin-right: 10%;
     }
-    .conteudo-post p{
+    .conteudo-post p {
         margin-right: 20%;
         margin-left: 20%;
     }
-
-    #lista-perfil li{
+    #lista-perfil li {
         right: 10%;
     }
 }
 
-@media (min-width: 1500px){
-
-    #lista-perfil li{
-        top: 5%;
+@media (min-width: 1500px) {
+    #lista-perfil li {
+        top: 10%;
         right: 25%;
     }
-
+    #lista-menu a {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
