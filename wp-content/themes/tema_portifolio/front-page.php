@@ -8,7 +8,7 @@ get_header();
 <div class="container">
 
     <div class="home-perfil">
-        <img id="foto-perfil" src="https://educar.gt/wp-content/uploads/2018/05/foto-de-perfil-adecuada.jpg">
+        <img id="foto-perfil" src="http://localhost\portfolio_tradutora\Portfolio_Tradutora\wp-content\themes\tema_portifolio\img\foto-de-perfil.jpg">
 
         <div class="logo-instagram">
             <a href="https://www.instagram.com/"><img id="logo-instagram" src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png"></a>

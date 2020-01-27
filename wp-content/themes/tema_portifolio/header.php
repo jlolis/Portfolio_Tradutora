@@ -20,33 +20,33 @@
             <ul class="lista-menu" id="lista-menu" style="width: 100%;">
             <?php wp_nav_menu( array(
 
-                ‘menu’ => ‘meu_menu’,
+                'menu' => 'meu_menu',
 
-                ‘theme_location’ => ‘meu_menu’,
+                'theme_location' => 'meu_menu',
 
-                ‘container’ => ‘div’,
+                'container' => 'div',
 
-                ‘container_class’ => ‘classe_do_container’,
+                'container_class' => 'classe_do_container',
 
-                ‘container_id’ => ‘id_do_container’,
+                'container_id' => 'id_do_container',
 
-                ‘menu_class’ => ‘classe_do_menu’,
+                'menu_class' => 'classe_do_menu',
 
-                ‘echo’ => true,
+                'echo' => true,
 
-                ‘menu_id’ => ‘id_do_menu’,
+                'menu_id' => 'id_do_menu',
 
-                ‘before’ => ”,
+                'before' => "",
 
-                ‘after’ => ”,
+                'after' => "",
 
-                ‘link_before’ => ”,
+                'link_before' => "",
 
-                ‘link_after’ => ”,
+                'link_after' => "",
 
-                ‘depth’ => 0,
+                'depth' => 0,
 
-                ‘walker’ => ”,
+                'walker' => "",
 
                 ) );
             ?>

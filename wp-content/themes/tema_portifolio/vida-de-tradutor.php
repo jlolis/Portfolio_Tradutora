@@ -12,17 +12,17 @@ Template Name: Vida de Tradutor
     <li>
           <input type="radio" id="slide1" name="slide" checked>
           <label for="slide1"></label>
-          <img class="imagem-slide-vida-de-tradutor" src="https://educar.gt/wp-content/uploads/2018/05/foto-de-perfil-adecuada.jpg" />
+          <img class="imagem-slide-vida-de-tradutor" src="http://localhost\portfolio_tradutora\Portfolio_Tradutora\wp-content\themes\tema_portifolio\img\meio-a-meio-perfil.jpg" />
     </li>
     <li>
           <input type="radio" id="slide2" name="slide">
           <label for="slide2"></label>
-          <img class="imagem-slide-vida-de-tradutor" src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png" />
+          <img class="imagem-slide-vida-de-tradutor" src="http://localhost\portfolio_tradutora\Portfolio_Tradutora\wp-content\themes\tema_portifolio\img\foto-de-perfil.jpg" />
     </li>
     <li>
           <input type="radio" id="slide3" name="slide">
           <label for="slide3"></label>
-          <img class="imagem-slide-vida-de-tradutor" src="https://educar.gt/wp-content/uploads/2018/05/foto-de-perfil-adecuada.jpg" />
+          <img class="imagem-slide-vida-de-tradutor" src="http://localhost\portfolio_tradutora\Portfolio_Tradutora\wp-content\themes\tema_portifolio\img\perfil-caixa-clube-de-leitores.jpg" />
     </li>
 </ul>
 

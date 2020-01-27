@@ -260,7 +260,11 @@ svg {
 .pagina-de-posts {
     text-align: center;
     color: white;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.pagina-de-posts h1 {
+    margin-bottom: 30px;
 }
 
 .conteudo-post {
@@ -273,10 +277,7 @@ svg {
 
 .conteudo-post p {
     max-width: 500px;
-}
-
-.pagina-de-posts h1 {
-    margin-bottom: 25px;
+    margin:0 0 30px;
 }
 
 #lista-perfil li {
@@ -297,6 +298,19 @@ svg {
 
 #lista-perfil a {
     text-decoration: none;
+}
+.post-unico{
+    text-align: center;
+    color: white;
+}
+.post-unico h1{
+    margin: 60px 0 40px;
+}
+.post-unico p {
+    margin: 0 0 30px;
+}
+.resumo-carreira-tradutor p{
+    margin-bottom: 35px;
 }
 
 @media (max-width: 325px) {
@@ -406,14 +420,14 @@ svg {
         margin: 0;
     }
     .foto-contato {
-        background-image: url('https://educar.gt/wp-content/uploads/2018/05/foto-de-perfil-adecuada.jpg');
+        background-image: url("http://localhost/portfolio_tradutora/Portfolio_Tradutora/wp-content/themes/tema_portifolio/img/foto-de-perfil.jpg");
         background-position: cover;
         border: aliceblue 7px solid;
         border-radius: 50%;
         width: 400px;
         height: 400px;
         display: block;
-        margin-top: 160px;
+        margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
         display: visible;
@@ -454,6 +468,19 @@ svg {
     #lista-perfil li p {
         font-weight: 300;
     }
+    .post-unico-conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .post-unico-conteudo p{
+        margin-right: 15px;
+    }
+
+
 }
 
 @media (min-width: 1024px) {
