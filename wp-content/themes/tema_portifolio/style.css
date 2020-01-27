@@ -11,17 +11,21 @@
 }
 
 body {
-    background-color: rgb(41, 200, 228);
+    background-color: rgb(163, 73, 164);
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .cabecalho {
-    background-color: rgba(11, 11, 194, 0.781);
+    background-color: rgba( 87, 87, 87);
     height: 60px;
     display: inline-block;
     width: 100%;
     text-align: center;
     min-width: 320px;
+    border-bottom: solid 2px rgb(110, 110, 110);
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 .menu-mobile {
@@ -55,7 +59,7 @@ svg {
 
 #foto-perfil {
     width: 355px;
-    margin-top: 10px;
+    margin-top: 100px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -161,7 +165,7 @@ svg {
 .logos-contato-imagem {
     width: 70px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -237,7 +241,7 @@ svg {
 
 .titulo-vida-de-tradutor {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     color: white;
     font-size: 2.5rem;
 }
@@ -261,6 +265,9 @@ svg {
     text-align: center;
     color: white;
     margin-top: 50px;
+}
+.pagina-de-posts h1:first-of-type{
+    margin-top: 100px;
 }
 
 .pagina-de-posts h1 {
@@ -363,7 +370,6 @@ svg {
         display: none;
     }
     .cabecalho {
-        background-color: blue;
         text-align: center;
         height: 50px;
     }
@@ -473,11 +479,14 @@ svg {
         align-items: center;
         justify-content: space-between;
         margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .post-unico-conteudo p{
         margin-right: 15px;
+    }
+    .post-unico h1{
+        margin-top: 100px;
     }
 
 
@@ -500,6 +509,13 @@ svg {
 }
 
 @media (min-width: 1285px) {
+    body {
+        background: linear-gradient(to right, 
+        rgba( 0, 0, 0) 10%,  rgb(163, 73, 164) 10% 90%, rgba( 0, 0, 0) 90%);
+    }
+
+
+
     .lista-menu li {
         font-size: 25px;
         float: left;
@@ -566,17 +582,17 @@ svg {
         margin-bottom: 40px;
     }
     .resumo-carreira-tradutor p {
-        margin-right: 9%;
-        margin-left: 9%;
+        margin-right: 19%;
+        margin-left: 19%;
         font-size: 1.2rem;
     }
     .titulo-vida-de-tradutor {
         font-size: 3rem;
-        margin-top: 45px;
-        margin-bottom: 45px;
+        margin-top: 100px;
+        margin-bottom: 60px;
     }
     .conteudo-post {
-        margin-right: 10%;
+        margin-right: 15%;
     }
     .conteudo-post p {
         margin-right: 20%;
@@ -584,6 +600,9 @@ svg {
     }
     #lista-perfil li {
         right: 10%;
+    }
+    #whatswidget-pre-wrapper .whatswidget-button-wrapper {
+        right: 13% !important;
     }
 }
 
