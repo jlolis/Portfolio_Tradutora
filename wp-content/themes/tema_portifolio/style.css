@@ -599,7 +599,7 @@ svg {
         margin-left: 20%;
     }
     #lista-perfil li {
-        right: 10%;
+        right: 12%;
     }
     #whatswidget-pre-wrapper .whatswidget-button-wrapper {
         right: 13% !important;
@@ -607,6 +607,24 @@ svg {
 }
 
 @media (min-width: 1500px) {
+    #lista-perfil li {
+        top: 10%;
+        right: 20%;
+    }
+    #lista-menu a {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
+
+@media (min-width: 1650px) {
+    #lista-perfil li {
+        top: 7%;
+        right: 15%;
+    }
+}
+
+@media (min-width: 2000px) {
     #lista-perfil li {
         top: 10%;
         right: 25%;
